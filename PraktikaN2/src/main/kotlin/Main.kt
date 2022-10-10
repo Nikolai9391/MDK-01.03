@@ -1,4 +1,4 @@
-fun main(args: Array<String>)
+   fun main(args: Array<String>)
 {
     // 1 задача
     val age1: Double = 42.0
@@ -23,9 +23,7 @@ fun main(args: Array<String>)
     val dates = Triple (12,5,2019)
 
     // 8 задача
-    val month = dates.first
-    val day = dates.second
-    val year = dates.third
+    val (month, day, year) = dates
 
     // 9 задача
     val monthAndYear = """
@@ -36,6 +34,7 @@ fun main(args: Array<String>)
     println(monthAndYear)
 
     // 10 задача
+
 
 
 
